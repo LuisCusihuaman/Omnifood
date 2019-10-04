@@ -184,7 +184,7 @@ section {
 	padding: 1%;
 }
 /* FEATURES */
-.section-meals .long-copy{
+.section-meals .long-copy {
 	margin-bottom: 30px;
 }
 /* MEALS */
@@ -207,7 +207,7 @@ section {
 	width: 100%;
 	margin: 0;
 	overflow: hidden;
-	background-color: #000; 
+	background-color: #000;
 }
 
 .meal-photo img {
@@ -218,7 +218,52 @@ section {
 	transition: transform 0.5s, opacity 0.5s;
 }
 
-.meal-photo img:hover{
+.meal-photo img:hover {
 	opacity: 1;
 	transform: scale(1.03);
+}
+
+/* HOW IT WORKS */
+
+.step-box:first-child {
+	text-align: right;
+	padding-right: 3%;
+	margin-top: 30px;
+}
+
+.step-box:last-child {
+	padding-right: 3%;
+	margin-top: 70px;
+}
+
+.app-screen {
+	float: right;
+	width: 40%;
+	padding-right: 40px;
+}
+
+.works-step {
+	margin-bottom: 50px;
+}
+.works-step :last-of-type {
+	margin-bottom: 50px;
+}
+.works-step div {
+	float: left;
+	color: #e67e22;
+	border: 2px solid #e67e22;
+	border-radius: 50%;
+	height: 55px;
+	width: 55px;
+	text-align: center;
+	padding: 5px;
+	font-size: 150%;
+	margin-right: 25px;
+	padding-bottom: 45px;
+}
+
+.btn-app img {
+	height: 50px;
+	width: auto;
+	margin-right: 10px;
 }
