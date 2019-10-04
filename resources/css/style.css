@@ -14,6 +14,17 @@ html {
 	text-rendering: optimizeLegibility;
 }
 
+.clearfix {
+	zoom: 1;
+}
+.clearfix:after {
+	content: ".";
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
 .custom-row {
 	max-width: 1140px;
 	margin: 0 auto;
@@ -204,8 +215,8 @@ section {
 
 .meal-photo {
 	/* this is a container of images */
+	margin: 0px;
 	width: 100%;
-	margin: 0;
 	overflow: hidden;
 	background-color: #000;
 }
@@ -248,6 +259,9 @@ section {
 .works-step :last-of-type {
 	margin-bottom: 50px;
 }
+
+
+
 .works-step div {
 	float: left;
 	color: #e67e22;
