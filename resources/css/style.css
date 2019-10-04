@@ -83,20 +83,19 @@ h2::after {
 	margin-left: 15%;
 }
 
-.box p{
+.box p {
 	font-size: 90%;
 	line-height: 145%;
 }
 
 /* ICONS */
 
-.icon-big{
+.icon-big {
 	font-size: 350%;
 	display: block;
 	color: #e67e22;
 	margin-bottom: 20px;
 }
-
 
 /* Presentation - Buttons */
 .btn:link,
@@ -184,25 +183,42 @@ section {
 .box {
 	padding: 1%;
 }
-
+/* FEATURES */
+.section-meals .long-copy{
+	margin-bottom: 30px;
+}
 /* MEALS */
 
-.meals-showcase{
+.section-meals {
+	padding: 0;
+}
+.meals-showcase {
 	list-style: none;
 	width: 100%;
 }
-.meals-showcase li{
+.meals-showcase li {
 	display: block;
 	float: left;
 	width: 25%;
 }
 
-.meal-photo{
+.meal-photo {
+	/* this is a container of images */
 	width: 100%;
 	margin: 0;
+	overflow: hidden;
+	background-color: #000; 
 }
 
-.meal-photo img{
+.meal-photo img {
+	opacity: 0.7;
 	width: 100%;
 	height: auto;
+	transform: scale(1.15);
+	transition: transform 0.5s, opacity 0.5s;
+}
+
+.meal-photo img:hover{
+	opacity: 1;
+	transform: scale(1.03);
 }
