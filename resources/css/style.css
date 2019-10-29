@@ -136,6 +136,44 @@ a:active {
 	border-bottom: 1px solid transparent;
 }
 
+/* TESTIMONIALS */
+.section-testimonials{
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("../img/back-customers.jpg");
+	background-size: cover;
+	color: #fff;
+	background-attachment: fixed;
+}
+blockquote{
+	position: relative;
+	padding: 2%;
+	font-style: italic;
+	line-height: 145%;
+	margin-top: 40px;
+}
+
+blockquote::before{
+	content:"\201C";
+	font-size: 400%;
+	display: block;
+	position: absolute;
+	top: -5px;
+	left: -3px;
+}
+
+cite{
+	font-size: 90%;
+	margin-top: 25px;
+	display: block;
+}
+
+cite img{
+	height: 50px;
+	border-radius: 50%;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+
 /* ICONS */
 .icon-big {
 	font-size: 350%;
