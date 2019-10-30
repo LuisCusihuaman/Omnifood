@@ -372,36 +372,105 @@ section {
 	box-shadow: 0 2px 2px #e3e3e3;
 }
 
-.plan-box div{
+.plan-box div {
 	padding: 15px;
 	border-bottom: 1px solid #e8e8e8;
 }
-.plan-box div:first-child{
+.plan-box div:first-child {
 	background-color: #fcfcfc;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 }
-.plan-box div:last-child{
+.plan-box div:last-child {
 	text-align: center;
 	border: 0;
 }
-.plan-price{
+.plan-price {
 	font-size: 300%;
 	margin-bottom: 10px;
 	font-weight: 100;
 	color: #e67e22;
 }
-.plan-price span{
+.plan-price span {
 	font-size: 30%;
 	font-weight: 300;
 }
-.plan-price-meal{
+.plan-price-meal {
 	font-size: 80%;
 }
 
 .plan-box ul {
 	list-style: none;
 }
-.plan-box ul li{
+.plan-box ul li {
 	padding: 5px 0;
+}
+
+/* FOOTER */
+footer {
+	background-color: #333;
+	padding: 50px;
+	font-size: 80%;
+}
+
+.footer-nav {
+	list-style: none;
+	float: left;
+}
+
+.social-links {
+	list-style: none;
+	float: right;
+}
+.footer-nav li,
+.social-links li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+	text-decoration: none;
+	border: 0;
+	color: #888;
+	transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+	color: #ddd;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+	font-size: 170%;
+}
+
+.fa-envelope,
+.fa-twitter,
+.fa-linkedin-in,
+.fa-github {
+	transition: color 0.2s;
+}
+
+.fa-envelope:hover {
+	color: #d44638;
+}
+.fa-twitter:hover {
+	color: #55acee;
+}
+.fa-linkedin-in:hover {
+	color: #0077b5;
+}
+.fa-github:hover {
+	color: #f5f5f5;
+}
+
+footer p {
+	color: #888;
+	text-align: center;
+	font-size: 90%;
+	margin-top: 20px;
 }
